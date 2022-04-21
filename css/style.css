@@ -127,7 +127,7 @@ img {
   position: relative;
 }
 
-.link::after {
+/* .link::after {
   content: "";
 
   position: absolute;
@@ -139,7 +139,7 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   display: none;
-}
+} */
 
 #studio {
   color: var(--accent-color);
