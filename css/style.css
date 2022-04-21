@@ -127,19 +127,6 @@ img {
   position: relative;
 }
 
-/* .link::after {
-  content: "";
-
-  position: absolute;
-  left: 0px;
-  bottom: -2px;
-
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  display: none;
-} */
 
 #studio {
   color: var(--accent-color);
@@ -189,17 +176,17 @@ img {
 .icon-envelope:focus .envelope {
   fill: var(--accent-color);
 }
-.vector {
+
+.smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: var(--primari-text-color);
 }
-.icon-vector:hover .vector,
-.icon-vector:focus .vector {
+.icon-smartphone:hover .smartphone,
+.icon-smartphone:focus .smartphone {
   fill: var(--accent-color);
 }
-
 a {
   text-decoration: none;
 }
