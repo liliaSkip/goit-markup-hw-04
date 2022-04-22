@@ -301,7 +301,7 @@ h2 {
 }
 
 /* Staff */
-.section.staff {
+.section-staff {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--staff-bdrcolor);
