@@ -206,6 +206,9 @@ a {
     ),
     url(../images/hero-icon.jpg);
   background-color: var(--hero-bgrcolor);
+  background-position: 50% 50%;
+  background-size: auto auto;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -234,6 +237,7 @@ h2 {
 .section-project {
   padding-top: 94px;
   padding-bottom: 94px;
+  
 }
 .section-title {
   color: var(--title-text-color);
@@ -300,7 +304,6 @@ h2 {
 .section.staff {
   padding-top: 94px;
   padding-bottom: 94px;
-
   background-color: var(--staff-bdrcolor);
 }
 .staff-name {
@@ -308,6 +311,7 @@ h2 {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  
 }
 .staff-persons {
   background-color: var(--primari-white-color);
@@ -414,7 +418,7 @@ h2 {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--title-text-color);
+  background-color: var(--hero-bgrcolor);
 }
 .container.footer {
   display: flex;
@@ -492,13 +496,14 @@ h2 {
 
   color: var(--primari-white-color);
   background-color: var(--accent-color);
-
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
   text-align: center;
+  
 }
 .button:hover,
 .button:focus {
@@ -506,17 +511,17 @@ h2 {
 }
 
 .buttons {
-  padding: 0px 22px;
-
-  color: var(--title-text-color);
-  background-color: var(--staff-bdrcolor);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  text-align: center;
-  border: none;
+font-family: inherit; /*Наследование шрифта через родителя */
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--staff-bdrcolor);
+padding: 6px 22px;
+border-radius: 4px;
+border: 0px;
+cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus {
