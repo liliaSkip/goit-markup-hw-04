@@ -372,6 +372,7 @@ h2 {
 .person-link:hover .facebook,
 .person-link:focus .facebook,
 .person-link:hover .linkedin,
+.person-link:focus .linkedin,
 .person-link:focus .icon-linkedin-icon {
   fill: var(--primari-white-color);
 }
